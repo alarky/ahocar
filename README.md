@@ -1,2 +1,2 @@
 # AHO-CAR
-Artificial Heuristic Onlne Car
+Artificial Heuristic Online Control Augmented Reality Car Project
