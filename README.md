@@ -15,8 +15,12 @@ Artificial Heuristic Online Control Augmented Reality Car Project
   - PWM DutyCycle Right 2000us
 
 # Edge Computer
-Raspberry Pi 3 Model B+
+- Raspberry Pi 3 Model B+
+- NVIDIA Jetson Nano
 
 # Camera
-Raspberry Pi Camera Module V2
+- Raspberry Pi Camera Module V2
 
+# ControlDevice
+- XBOX Controller
+- Logitech G29 Driving Force
