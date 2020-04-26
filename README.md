@@ -20,6 +20,7 @@ Artificial Heuristic Online Control Augmented Reality Car Project
 
 # Camera
 - Raspberry Pi Camera Module V2
+- Entaniya VR 220
 
 # ControlDevice
 - XBOX Controller
