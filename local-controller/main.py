@@ -43,7 +43,7 @@ while True:
     try:
         for e in pygame.event.get():
             if e.type == JOYAXISMOTION:
-                steer = joystick.get_axis(LSTICK_X)
+                steer = joystick.get_axis(LSTICK_X) - 0.15
                 brake = joystick.get_axis(L2)
                 accel = joystick.get_axis(R2)
                 break
@@ -59,6 +59,8 @@ while True:
             speed -= 1
             if speed < 0:
                 speed = 0
+
+        speed /= 2
 
         print(f"steer: {steer}, brake: {brake}, accel: {accel}, speed: {speed}")
         pi.hardware_PWM(STEER_GPIO, FREQUENCY, 75000 + int(steer * 25000))
