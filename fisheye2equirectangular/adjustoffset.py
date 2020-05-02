@@ -4,7 +4,6 @@ import sys
 
 image = cv2.imread(sys.argv[1])
 height, width = image.shape[0], image.shape[1]
-print(f"{height},{width}")
 
 center = (int(width/2), int(height/2))
 radius = int(height/2)
